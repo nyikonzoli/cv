@@ -1,0 +1,29 @@
+#profile-content{
+    background-color:#260126;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+#profile-picture > img{
+    border: black solid 3px;
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+}
+
+#profile-text{
+    color: white;
+    width: 450px;
+    height: 450px;
+    padding-left: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:flex-start;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
