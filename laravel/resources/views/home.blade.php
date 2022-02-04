@@ -23,8 +23,15 @@
     <div class="spacer" style="background-image: url({{asset('svg/spacer1.svg')}});"></div>
     <section id="resume">
         <div id="resume-content">
-           <div class="resume-card">
-
+           <div id="workexperience" class="columnn">
+                <div class="resume-card"></div>
+                <div class="resume-card"></div>
+                <div class="resume-card"></div>
+           </div>
+           <div id="education" class=columnn">
+                <div class="resume-card"></div>
+                <div class="resume-card"></div>
+                <div class="resume-card"></div>
            </div>
         </div>
     </section>
