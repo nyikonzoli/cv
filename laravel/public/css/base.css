@@ -41,12 +41,12 @@ body{
 }
 
 #left a:hover{
-    color:#F7760E;
+    color:#b827fc;
 }
 
 .active{
     font-size: 32px !important;
-    color:#F7760E !important;
+    color:#b827fc !important;
 }
 
 #left > img{

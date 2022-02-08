@@ -15,31 +15,42 @@
     padding-top: 6em;
 }
 
-#upper-text{
-    width: 50%;
+#upper-content{
+    width: 100%;
     margin-right: 2em;
     text-align: justify;
 }
 
-#upper-text > p{
+#upper-content > div > p{
     font-size: 18px;
 }
 
-#upper-image{
-    width: 50%;
-    margin-left: 2em;
-    padding: 0.5em;
-    margin-top: 5.5em;
+#upper-content > div > img{
+    width: 350px;
+    float: right;
+    border-radius: 50%;
+    shape-outside: circle(50%);
+    margin-left: 2.5em;
+    margin-top: 0.5em;
 }
 
-#upper-image > img{
-    border-radius: 50% ;
-}
- 
 h1{
     margin-bottom: 1em;
 }
 
 #lower{
+    border-radius: 5px;
+    border: white 3px solid;
     margin-top: 8em;
+    letter-spacing: 4px;
+    padding: 1em;
+}
+
+#lower > h3{
+    margin: 0px;
+}
+
+#lower:hover{
+    border-color: #b827fc;
+    color: #b827fc;
 }

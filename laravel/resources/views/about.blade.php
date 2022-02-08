@@ -9,16 +9,16 @@
 @section('content')
     <div id="content">
         <div id="upper">
-            <div id="upper-text">
+            <div id="upper-content">
                 <h1><b>About Me</b></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis obcaecati voluptates, exercitationem hic a reprehenderit soluta accusamus consequatur culpa dolorum voluptatibus alias ducimus porro non, maiores odit quas praesentium ad. Asperiores, aperiam ipsum, quasi laboriosam temporibus ut cumque nisi ab facilis pariatur eveniet voluptatibus est corrupti vitae ipsa nemo perferendis natus laborum dolorem beatae rem corporis explicabo sapiente! Id atque iste sit nemo corrupti hic expedita mollitia possimus, sapiente rem illo facere voluptatibus earum provident placeat dolor dignissimos vero itaque.</p>
-            </div>
-            <div id="upper-image">
-            <img src="https://placekitten.com/450/450" alt="me" width="100%">
+                <div>
+                    <img src="https://placekitten.com/450/450" alt="me" width="100%">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestias illum labore rerum esse eum in! Cumque maxime voluptate similique. Nostrum quibusdam illo illum labore sint ducimus! Odio nam officiis dicta animi, itaque assumenda magnam tenetur qui tempore ex alias corrupti? Perspiciatis perferendis eos sed deleniti velit voluptatibus mollitia, vero est tempora assumenda quo facilis nobis debitis ducimus qui unde quia distinctio illum dolore repellat veniam, consequatur blanditiis minus itaque? Quam atque provident laudantium possimus saepe labore neque. Fuga consectetur nisi deserunt sunt nemo amet beatae? Quos aliquam quasi quis?</p>
+                </div>
             </div>
         </div>
         <div id="lower">
-            <h2>My hobbies</h2>
+            <h3>MY HOBBIES</h3>
         </div>
     </div>
 @endsection

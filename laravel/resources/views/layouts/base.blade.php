@@ -16,7 +16,7 @@
             <img src="https://placekitten.com/450/450" alt="me" width="275px" height="275px">
             <ul>
                 <li>
-                    <a href="{{ route('home') }}" class="{{ request()->is('home') ? 'active' : ''}}">Home</a>
+                    <a href="{{ route('home') }}" class="{{ request()->is('/') ? 'active' : ''}}">Home</a>
                 </li>
                 <li>
                     <a href="{{ route('about') }}" class="{{ request()->is('about') ? 'active' : ''}}">About Me</a>
