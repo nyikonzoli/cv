@@ -2,6 +2,7 @@
 
 @section('head')
     <link rel="stylesheet" href="{{asset('css/about.css')}}">
+    <script src="{{asset('js/about/modal.js')}}"></script>
 @endsection
 
 @section('title', 'Zoltán Nyikon - About')
@@ -18,7 +19,35 @@
             </div>
         </div>
         <div id="lower">
-            <h3>MY HOBBIES</h3>
+            <button onclick="openModal();"><h3>MY HOBBIES</h3></button>
         </div>
     </div>
 @endsection
+
+
+<div class="modal fade" id="hobbiesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="vertical">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-left">
+                        <div class="modal-text">
+                            <h1>Music and friends</h1>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio minima perferendis sed libero pariatur totam facere quasi voluptas sequi natus veritatis atque saepe debitis nisi, vel minus hic temporibus quaerat?</p>
+                        </div>
+                        <div class="pagination">
+                            <h5>Page 1</h5>
+                            <div class="circles">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-right">
+                        <img src="{{asset('img/felho.jpeg')}}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+</div>

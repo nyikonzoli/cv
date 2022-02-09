@@ -9,12 +9,13 @@
 @section('content')
     <div id="content">
         <div id="text">
-            <h1><b>Hello!</b></h1>
+            <h1 id="greeting">Hello!</h1>
             <p>I'm <strong class="name">Zoltán Nyikon</strong>, Junior Front-end and Back-end developer based in Budapest, Hungary.</p>
             <ul>
-                <li><i class="fa fa-linkedin-square icon"></i></li>
-                <li><i class="fa fa-github-square icon"></i></li>
+                <li><a class="fa fa-linkedin-square icon"></a></li>
+                <li><a class="fa fa-github-square icon"></a></li>
             </ul>
         </div>
     </div>
+    <script src="{{asset('js/home/typing.js')}}"></script>
 @endsection

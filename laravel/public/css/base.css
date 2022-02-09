@@ -47,6 +47,7 @@ body{
 .active{
     font-size: 32px !important;
     color:#b827fc !important;
+    font-weight: bold;
 }
 
 #left > img{

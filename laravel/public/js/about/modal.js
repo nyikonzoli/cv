@@ -1,0 +1,4 @@
+function openModal(){
+    let modal = new bootstrap.Modal(document.getElementById("hobbiesModal"));
+    modal.show();
+}
