@@ -73,6 +73,8 @@ h1{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     padding: 2rem;
+    position: relative;
+    overflow: hidden;
 }
 
 .modal-right{
@@ -111,4 +113,79 @@ h1{
 
 .modal-text{
     color:white;
+}
+
+.floatInOut{
+    animation: floatXPlus 1s;
+}
+
+@keyframes floatXPlus {
+    50%{
+        transform: translateX(-120%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.pagination{
+    margin-top: 6rem;
+    width: 100%;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.pagination:hover{
+    cursor: default;
+}
+
+.circles > ul{
+    padding-left: 0px;
+}
+
+.circles > ul > li{
+    display: inline-block;
+    padding-right: 20px;
+    width: 18px;
+    height: 18px;
+}
+
+.circles > ul > li > div{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.circles > ul > li > div{
+    cursor: pointer;
+}
+
+.circle{
+    width: 13px;
+    height: 13px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle:hover{
+    animation: paginationHover 0.4s ease 1;
+}
+
+@keyframes paginationHover{
+    0%{
+        width: 18px;
+        height: 18px;
+    }
+}
+
+.activeHobbie{
+    background-color: #111111 !important;
 }

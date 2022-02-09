@@ -3,6 +3,7 @@
 @section('head')
     <link rel="stylesheet" href="{{asset('css/about.css')}}">
     <script src="{{asset('js/about/modal.js')}}"></script>
+    <script src="{{asset('js/about/changeHobbie.js')}}"></script>
 @endsection
 
 @section('title', 'Zoltán Nyikon - About')
@@ -33,12 +34,15 @@
                     <div class="modal-left">
                         <div class="modal-text">
                             <h1>Music and friends</h1>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio minima perferendis sed libero pariatur totam facere quasi voluptas sequi natus veritatis atque saepe debitis nisi, vel minus hic temporibus quaerat?</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio minima perferendis sed libero pariatur totam facere quasi voluptas sequi natus veritatis atque saepe debitis nisi, vel minus hic temporibus quaerat?</p>
                         </div>
                         <div class="pagination">
-                            <h5>Page 1</h5>
                             <div class="circles">
-                                
+                                <ul>
+                                    <li><div onclick="change(0);"><div id="pagination1" class="circle activeHobbie"></div></div></li>
+                                    <li><div onclick="change(1);"><div id="pagination2" class="circle"></div></div></li>
+                                    <li><div onclick="change(2);"><div id="pagination3" class="circle"></div></div></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
