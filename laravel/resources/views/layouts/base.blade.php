@@ -23,7 +23,7 @@
                     <a href="{{ route('about') }}" class="{{ request()->is('about') ? 'active' : ''}}">About Me</a>
                 </li>
                 <li>
-                    <a href="" class="{{ request()->is('resume') ? 'active' : ''}}">Resume</a>
+                    <a href="{{ route('resume') }}" class="{{ request()->is('resume') ? 'active' : ''}}">Resume</a>
                 </li>
                 <li>
                     <a href="" class="{{ request()->is('projects') ? 'active' : ''}}">Projects</a>
@@ -34,7 +34,7 @@
             </ul>
         </div>
         <div id="spacer">
-            <img src="{{asset('svg/spacer.svg')}}">
+            <img src="{{asset('img/spacer.svg')}}">
         </div>
         <div id="right">
             @yield('content')
