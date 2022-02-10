@@ -24,3 +24,11 @@ Route::get('/about', function () {
 Route::get('/resume', function () {
     return view('resume');
 })->name('resume');
+
+Route::get('/projects', function () {
+    return view('projects');
+})->name('projects');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');

@@ -13,7 +13,7 @@
             <p>I'm <strong class="name">Zoltán Nyikon</strong>, Junior Front-end and Back-end developer based in Budapest, Hungary.</p>
             <ul>
                 <li><a class="fa fa-linkedin-square icon"></a></li>
-                <li><a class="fa fa-github-square icon"></a></li>
+                <li><a class="fa fa-github-square icon" href="https://github.com/nyikonzoli" target="_blank"></a></li>
             </ul>
         </div>
     </div>

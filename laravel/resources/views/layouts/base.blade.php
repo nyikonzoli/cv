@@ -26,10 +26,10 @@
                     <a href="{{ route('resume') }}" class="{{ request()->is('resume') ? 'active' : ''}}">Resume</a>
                 </li>
                 <li>
-                    <a href="" class="{{ request()->is('projects') ? 'active' : ''}}">Projects</a>
+                    <a href="{{ route('projects') }}" class="{{ request()->is('projects') ? 'active' : ''}}">Projects</a>
                 </li>
                 <li>
-                    <a href="" class="{{ request()->is('contact') ? 'active' : ''}}">Contact</a>
+                    <a href="{{ route('contact') }}" class="{{ request()->is('contact') ? 'active' : ''}}">Contact</a>
                 </li>
             </ul>
         </div>
