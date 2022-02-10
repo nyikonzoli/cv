@@ -1,0 +1,50 @@
+.circle{
+    width: 80px;
+    height: 80px;
+    background-color: #ca2727;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+}
+
+.circle > i{
+    font-size: 34px;
+    color: #e59f26;
+}
+
+ul{
+    list-style: none;
+}
+
+.info-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.info{
+    height: 80px;
+    width: 400px;
+    margin-left: -40px;
+    background-color: #e59f26;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info > h5{
+    color: #ca2727;
+    font-weight: 500;
+}
+
+h1{
+    color:white;
+}
