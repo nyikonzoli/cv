@@ -41,12 +41,12 @@ body{
 }
 
 #left a:hover{
-    color:#b827fc;
+    color:#e59f26;
 }
 
 .active{
     font-size: 32px !important;
-    color:#b827fc !important;
+    color:#e59f26 !important;
     font-weight: bold;
 }
 

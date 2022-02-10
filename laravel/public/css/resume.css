@@ -1,0 +1,96 @@
+#content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+section{
+    margin-top: 4em;
+}
+
+section > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1{
+    margin-bottom: 1em;
+}
+
+.shadow-work{
+    box-shadow: 5px 5px #ca2727;
+}
+
+.shadow-education{
+    box-shadow: 5px 5px #e59f26;
+}
+
+.card-body{
+    background-color: black !important;
+    border-radius: 5px;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    color: black;
+}
+
+.card-header-work{
+    background-color: #e59f26;
+    height: 100px;
+}
+
+.card-header-education{
+    background-color: #ca2727;
+    height: 120px;
+    color: white;
+}
+
+.card-header-work > h6{
+    color: #111111;
+    margin-top: 2px;
+}
+
+.card-header-education > h6{
+    color: #bbbbbb;
+    margin-top: 2px;
+}
+
+.card{
+    margin-right: 3em;
+    background-color: transparent;
+}
+
+.visit{
+    display: flex;
+    height: 40px !important;
+    width: 70px !important;
+    border-radius: 20px;
+    background-color: #ca2727;
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.vist-work{
+    background-color: #ca2727;
+    color: white;
+}
+
+.visit-education{
+    background-color: #e59f26;
+    color: black;
+}
+
+h5{
+    font-weight: bold;
+}

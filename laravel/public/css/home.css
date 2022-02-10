@@ -18,7 +18,7 @@
 }
 
 #text > ul > li > a:hover{
-    color: #b827fc !important;
+    color: #e59f26 !important;
 }
 
 #text > p{
@@ -35,7 +35,7 @@ ul{
 }
 
 .name{
-    color: #b827fc;
+    color: #e59f26;
     font-size: 40px;
 }
 
