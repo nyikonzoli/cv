@@ -32,7 +32,7 @@
         </div>
         <div class="card-body">
             <p id="cardContent" class="card-text"></p>
-            <a id="cardLink" href="" class="visit">Visit</a>
+            <a id="cardLink" href="" class="visit" target="_base">Visit</a>
         </div>
     </div>
 </template>
