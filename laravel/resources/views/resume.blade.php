@@ -8,6 +8,10 @@
 @section('title', 'Zoltán Nyikon - Resume')
 
 @section('content')
+    <div class="title-div">
+        <h1 class="title">MY</h1>
+        <h1 class="coloredh1 title">RESUME</h1>
+    </div>
     <div id="content">
         <section id="work">
             <h1>My previous work experience</h1>

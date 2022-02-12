@@ -70,6 +70,7 @@ ul{
 h1{
     color:white;
     margin-bottom: 3rem;
+    padding-left: 100px;
 }
 
 #content > div{
@@ -91,4 +92,10 @@ h1{
 
 .form-label{
     color: white !important;
+}
+
+
+.btn{
+    background-color: #e59f26 !important;
+    width: 120px !important;
 }

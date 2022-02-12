@@ -1,0 +1,12 @@
+h1{
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    font-size: 60px;
+}
+
+.coloredh1{
+    margin-top: -26px;
+    color: #e59f26;
+}

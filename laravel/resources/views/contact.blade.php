@@ -14,17 +14,17 @@
                 <form>
                     <div class="mb-3">
                         <label for="email" class="form-label">Your email</label>
-                        <input type="email" class="form-control" id="email" placeholder="example@example.com">
+                        <input type="email" class="form-control bg-dark text-light" id="email" placeholder="example@example.com">
                     </div>
                     <div class="mb-3">
                         <label for="title" class="form-label">Title</label>
-                        <input class="form-control" type="text" placeholder="Title" id="title">
+                        <input class="form-control bg-dark text-light" type="text" placeholder="Title" id="title">
                     </div>
                     <div class="mb-3">
                         <label for="text" class="form-label">Content</label>
-                        <textarea class="form-control" id="text" rows="8"></textarea>
+                        <textarea class="form-control bg-dark text-light" id="text" rows="8"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send</button>
+                    <button type="submit" class="btn">Send</button>
                 </form>
             </div>
             <div class="cards">
