@@ -10,3 +10,51 @@ h1{
     margin-top: -26px;
     color: #e59f26;
 }
+
+#content{
+    width: 100%;
+}
+
+#all{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards{
+    color: #bbbbbb;
+}
+
+.card-body{
+    width: 900px;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0px;
+}
+
+.card-content{
+    width: 650px;
+    height: 100%;
+    background-color: black;
+    padding: 16px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.tags{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.card-image{
+    width: 250px;
+    height: inherit;
+    background-color: red;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
