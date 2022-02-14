@@ -2,6 +2,7 @@
 
 @section('head')
     <link rel="stylesheet" href="{{asset('css/projects.css')}}">
+    <script src="{{asset('js/projects/cards.js')}}"></script>
 @endsection
 
 @section('title', 'Zoltán Nyikon - Projects')
@@ -18,40 +19,27 @@
 
                 </div>
                 <div id="cards">
-                    <div class="card-body">
-                        <div class="card-content">
-                            <h4>Projekt neve</h4>
-                            <h6>Projekt státusza</h6>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius porro excepturi quasi et? Autem deleniti alias reprehenderit officiis eaque quibusdam, distinctio eveniet placeat. Laborum voluptates saepe neque inventore! Eum, necessitatibus!</p>
-                            <div class="tags">
-                                <h5><span class="badge badge-secondary">Badge</span></h5>
-                                <h5><span class="badge badge-secondary">Badge</span></h5>
-                                <h5><span class="badge badge-secondary">Badge</span></h5>
-                                <h5><span class="badge badge-secondary">Badge</span></h5>
-                                <h5><span class="badge badge-secondary">Badge</span></h5>
-                                <h5><span class="badge badge-secondary">Badge</span></h5>
-                                <h5><span class="badge badge-secondary">Badge</span></h5>
-                                <h5><span class="badge badge-secondary">Badge</span></h5>
-                            </div>
-                            <button class="btn btn-success">Check out</button>
-                        </div>
-                        <div class="card-image">
-                            <img src="" alt="">
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 @endsection
 
-<template id="card">
-    <div class="card-body">
-        <div class="card-content">
-            
+<template id="cardTemplate">
+    <div class="card-content">
+        <h3>This CV</h3>
+        <div class="line"></div>
+        <div class="card-text">
+
         </div>
-        <div class="card-image">
-            <img src="" alt="">
+        <div class="tags">
+
+        </div>
+        <div class="card-bottom">
+            <div class="visit-div">
+            </div>
+            <a href="#" class="cardMore">Show more</a>
         </div>
     </div>
 </template>
