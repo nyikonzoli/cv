@@ -8,23 +8,25 @@
 @section('title', 'Zoltán Nyikon - Resume')
 
 @section('content')
-    <div class="title-div">
-        <h1 class="title">MY</h1>
-        <h1 class="coloredh1 title">RESUME</h1>
-    </div>
-    <div id="content">
-        <section id="work">
-            <h1>My previous work experience</h1>
-            <div id="work-cards">
-
+    <div id="everything">
+        <div id="content">
+            <div class="title-div">
+                <h1 class="title contenth1">MY</h1>
+                <h1 class="coloredh1 title contenth1">RESUME</h1>
             </div>
-        </section>
-        <section id="education">
-            <h1>Education</h1>
-            <div id="education-cards">
+            <section id="work">
+                <h1 class="contenth1 titleh1">My previous work experience</h1>
+                <div id="work-cards">
 
-            </div>
-        </section>
+                </div>
+            </section>
+            <section id="education">
+                <h1 class="contenth1 titleh1">Education</h1>
+                <div id="education-cards">
+
+                </div>
+            </section>
+        </div>
     </div>
 @endsection
 

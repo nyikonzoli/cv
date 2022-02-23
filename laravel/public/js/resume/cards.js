@@ -49,8 +49,7 @@ const educationLinks = [
 function loadCards(){
     let temp = document.getElementById("cardTemplate");
     let div = temp.content.querySelector("div.card");
-    let i = 0;
-    workTitles.forEach(title => {
+    for (let i = 0; i < workTitles.length; i++) {
         let imp = document.importNode(div, true);
         imp.classList.add("shadow-work");
         imp.querySelector(".card-header>h5").innerHTML = workTitles[i];
@@ -60,10 +59,8 @@ function loadCards(){
         imp.querySelector(".card-body>a").classList.add("visit-work");
         imp.querySelector(".card-header").classList.add("card-header-work");
         document.getElementById("work-cards").appendChild(imp);
-        i++;
-    });
-    i = 0;
-    educationTitles.forEach(title => {
+    }
+    for (let i = 0; i < workTitles.length; i++) {
         let imp = document.importNode(div, true);
         imp.classList.add("shadow-education");
         imp.querySelector(".card-header>h5").innerHTML = educationTitles[i];
@@ -73,8 +70,7 @@ function loadCards(){
         imp.querySelector(".card-body>a").classList.add("visit-education");
         imp.querySelector(".card-header").classList.add("card-header-education");
         document.getElementById("education-cards").appendChild(imp);
-        i++;
-    });
+    };
 }
 
 window.onload = function(){ loadCards() };
