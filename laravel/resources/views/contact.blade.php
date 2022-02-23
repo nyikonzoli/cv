@@ -55,7 +55,7 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="info">
-                                <h5>06308446803</h5>
+                                <h5>+36308446803</h5>
                             </div>
                         </div>
                     </li>

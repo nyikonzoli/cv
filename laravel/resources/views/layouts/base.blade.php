@@ -10,28 +10,36 @@
     <title>@yield('title')</title>
     @yield('head')
     <link rel="stylesheet" href="{{asset('css/base.css')}}">
+    <script src="{{asset('js/base/responsiveMenu.js')}}"></script>
 </head>
 <body>
     <div id="main">
         <div id="left">
-            <img src="https://placekitten.com/450/450" alt="me" width="275px" height="275px">
-            <ul>
-                <li>
-                    <a href="{{ route('home') }}" class="{{ request()->is('/') ? 'active' : ''}}">Home</a>
-                </li>
-                <li>
-                    <a href="{{ route('about') }}" class="{{ request()->is('about') ? 'active' : ''}}">About Me</a>
-                </li>
-                <li>
-                    <a href="{{ route('resume') }}" class="{{ request()->is('resume') ? 'active' : ''}}">Resume</a>
-                </li>
-                <li>
-                    <a href="{{ route('projects') }}" class="{{ request()->is('projects') ? 'active' : ''}}">Projects</a>
-                </li>
-                <li>
-                    <a href="{{ route('contact') }}" class="{{ request()->is('contact') ? 'active' : ''}}">Contact</a>
-                </li>
-            </ul>
+            <div id="nav">
+                <h2 id="name-title"><b>Zoltán Nyikon</b></h2>
+                <button id="menu-icon" onclick="dropMenu();"><h1>≡</h1></button>
+            </div>
+
+            <div id="menu">
+                <img src="https://placekitten.com/450/450" alt="me">
+                <ul>
+                    <li>
+                        <a href="{{ route('home') }}" class="{{ request()->is('/') ? 'active' : ''}}">Home</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('about') }}" class="{{ request()->is('about') ? 'active' : ''}}">About Me</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('resume') }}" class="{{ request()->is('resume') ? 'active' : ''}}">Resume</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('projects') }}" class="{{ request()->is('projects') ? 'active' : ''}}">Projects</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('contact') }}" class="{{ request()->is('contact') ? 'active' : ''}}">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div id="spacer">
             <img src="{{asset('img/spacer.svg')}}">
