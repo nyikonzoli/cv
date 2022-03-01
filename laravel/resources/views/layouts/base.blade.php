@@ -21,7 +21,7 @@
             </div>
 
             <div id="menu">
-                <img src="https://placekitten.com/450/450" alt="me">
+                <div style="background-image: url('https://placekitten.com/450/450');"> </div>
                 <ul>
                     <li>
                         <a href="{{ route('home') }}" class="{{ request()->is('/') ? 'active' : ''}}">Home</a>

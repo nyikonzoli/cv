@@ -9,16 +9,23 @@
 @section('title', 'Zoltán Nyikon - About')
 
 @section('content')
-<div class="title-div">
-            <h1 class="title">ABOUT</h1>
-            <h1 class="coloredh1 title">ME</h1>
-        </div>
+
     <div id="content">
         <div id="upper">
             <div id="upper-content">
+                <div class="title-div">
+                    <h1 class="title">ABOUT</h1>
+                    <h1 class="coloredh1 title">ME</h1>
+                </div>
                 <div id="text">
                     <img src="https://placekitten.com/450/450" alt="me" width="100%">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestias illum labore rerum esse eum in! Cumque maxime voluptate similique. Nostrum quibusdam illo illum labore sint ducimus! Odio nam officiis dicta animi, itaque assumenda magnam tenetur qui tempore ex alias corrupti? Perspiciatis perferendis eos sed deleniti velit voluptatibus mollitia, vero est tempora assumenda quo facilis nobis debitis ducimus qui unde quia distinctio illum dolore repellat veniam, consequatur blanditiis minus itaque? Quam atque provident laudantium possimus saepe labore neque. Fuga consectetur nisi deserunt sunt nemo amet beatae? Quos aliquam quasi quis?</p>
+                    <p>Since I got into high school, I knew that I wanted to work in the IT industry, because I'm able to use my problem solving skills and creativity. 
+                        Finally, that day is here when I'm searching for a job in this field at 19 years old. At the beginning, I wasn't sure what I wanted to choose to do out of the 
+                        many possibilities in IT, but throughout the years, I figured out that I wanted to be a web developer. This is why I chose to stay one extra 
+                        year in high-school for a software developer course, which gave me a great understanding of several technologies. I will also go to university 
+                        this year, here in Budapest. Besides school, I also spent a lot of time on self-improvement, work, and hobbies such as sports or music. 
+                        You can check out my hobbies down below.
+                    </p>
                 </div>
             </div>
         </div>
