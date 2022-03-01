@@ -59,7 +59,7 @@ h1{
     color: #b827fc; 
 }
 
-.modal-body{
+.modal-cnt{
     display: inline-flex;
     height:min-content;
     width: 100%;
@@ -76,7 +76,7 @@ h1{
 }
 
 .modal-right{
-    height: 100%;
+    height: fit-content;
     width: 40%;
 
 }
@@ -85,10 +85,6 @@ h1{
     width: 100%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-}
-
-.modal-body {
-    padding: 0px;
 }
 
 .vertical{
@@ -257,4 +253,8 @@ h1{
     #text > img{
         width: 100%;
     }
+}
+
+.modal-body{
+    margin: 32px;
 }
